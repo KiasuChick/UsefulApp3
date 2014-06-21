@@ -1,0 +1,7 @@
+<%= form_for @location do |l| %>
+
+	<h2>Name: <%= l.text_field :name, class: "form-control" %></h2>
+	<h2>Address: <%= l.text_field :address, class: "form-control" %></h2>
+	<h2>Store Type: <%= l.text_field :store_type, class: "form-control" %></h2>
+	<%= l.submit "Save location", class: "btn" %>
+<% end %>

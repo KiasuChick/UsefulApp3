@@ -1,0 +1,26 @@
+// Place all the styles related to the locations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'bootstrap';
+
+
+h1 { text-align: center; }
+
+a {
+	color: black;
+	
+}
+
+.border {
+	border: dashed 2px red;
+	height: 300px;
+	padding: 15px;
+	overflow: scroll;
+}
+
+.tall { height: 400px; }
+
+.show-link { margin: 25px 10px; }
+
+.btn { float: left; margin-right: 5px;}

@@ -1,0 +1,20 @@
+meep hello world
+
+
+<h1><b>Locations Page</b></h1>
+<div class="row">
+	
+		<% @locations.each do |l| %>
+			
+				<div class="panel panel-default">	
+					<h4>Name: <%= l.name %></h4>
+					<h4> Address: <%= l.address %></h4>
+					<h4> Store Type: <%= l.store_type %></h4>
+					<%= link_to "Show Location", location_path(l), class: "btn btn-danger" %>
+				</div>
+			
+		<% end %>
+
+</div>
+
+<h4><%= link_to "Add a new location", new_location_path %></h4>

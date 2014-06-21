@@ -1,8 +1,8 @@
 Usefulapp::Application.routes.draw do
 
-  resources :favorites
+  resources :locations
 
-  root 'favorites#index'
+  root 'locations#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,15 @@
+<h1><b>Location Detail Page</b></h1>
+<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4 border">	
+				<h2>Name: <%= @location.name %></h2>
+				<h2>Address: <%= @location.address %></h2>
+				<h3>Store Type: <%= @location.store_type %></h3>
+				<%= link_to " ", edit_location_path(@location), class: "glyphicon glyphicon-pencil show-link" %>
+			
+				<%= link_to " ", @location, {method: :delete, data: {confirm: "Delete this location?"}, class: "glyphicon glyphicon-trash show-link"} %>
+
+				<%= link_to "Back", locations_path, class: "show-link"%>
+			</div>
+			<div class="col-md-4"></div>
+</div>
