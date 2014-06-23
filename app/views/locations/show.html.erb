@@ -5,8 +5,8 @@
 				<h2>Name: <%= @location.name %></h2>
 				<h2>Address: <%= @location.address %></h2>
 				<h3>Store Type: <%= @location.store_type %></h3>
-				<h3> Longitude: <%= l.longitude %></h3>
-          		<h3> Latitude: <%= l.latitude %></h3>
+				<h3> Longitude: <%= @location.longitude %></h3>
+          		<h3> Latitude: <%= @location.latitude %></h3>
 				<%= link_to " ", edit_location_path(@location), class: "glyphicon glyphicon-pencil show-link" %>
 			
 				<%= link_to " ", @location, {method: :delete, data: {confirm: "Delete this location?"}, class: "glyphicon glyphicon-trash show-link"} %>
