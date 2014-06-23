@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 gem 'gmaps4rails'
+gem 'geocoder'
+gem 'protected_attributes'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
