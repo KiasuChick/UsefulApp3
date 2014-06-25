@@ -6,6 +6,7 @@ gem 'gmaps4rails'
 gem 'geocoder'
 gem 'protected_attributes'
 
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -34,6 +35,11 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 
 # Use ActiveModel has_secure_password
