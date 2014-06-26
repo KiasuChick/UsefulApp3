@@ -3,7 +3,7 @@
 
 == Summary
 
-Ruby on Rails app that displays user-entered locations and plots them on a map in relation to each other.
+Ruby on Rails app that displays user-defined locations and plots them on a map in relation to each other.
 
 ==Technology
 
