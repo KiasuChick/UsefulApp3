@@ -7,8 +7,10 @@ Ruby on Rails app that displays user-entered locations and plots them on a map i
 
 ==Technology
 
-Ruby On Rails
-Gmaps4rails gem
-Geocoder gem
-Bootstrap
-Bcrypt
+*Ruby On Rails
+*Gmaps4rails gem
+*Geocoder gem
+*Bootstrap
+*Bcrypt
+
+==Work In Progress!!!
