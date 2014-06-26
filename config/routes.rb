@@ -1,6 +1,8 @@
 Usefulapp::Application.routes.draw do
 
   resources :locations
+  resources :sessions, only: [:new, :create, :destroy]
+  resources :users, only: [:new, :create]
 
   root 'locations#index'
   # The priority is based upon order of creation: first created -> highest priority.
